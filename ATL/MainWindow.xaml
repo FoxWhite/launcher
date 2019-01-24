@@ -1,0 +1,28 @@
+﻿<Window x:Class="ATL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATL"
+        mc:Ignorable="d"
+        Title="Arena-Tournament" Height="496.261" Width="746.729" Background="#FF1E2027" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://at-wow.org/templates/at_wow/images/banner.jpg"/>
+        </Grid.Background>
+        <WebBrowser Margin="10,10,307,85" RenderTransformOrigin="-2.049,0.474" Source="https://at-wow.org/alert/"/>
+        <Button x:Name="LaunchGameButton" Content="Start Play" HorizontalAlignment="Left" Margin="528,405,0,0" VerticalAlignment="Top" Width="190" Height="38" Background="#FFFF9F15" FontFamily="WarCraft Font" FontSize="24" RenderTransformOrigin="0.5,0.5" Click="Start_Click" Foreground="#FF110202">
+
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5.539"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="LaunchWebsiteButton" Content="Forum" HorizontalAlignment="Left" Margin="10,406,0,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="-2.875,0.58" Height="40" FontFamily="WarCraft Font" FontSize="22" FontWeight="Bold" Background="#FFFF9F15" Click="Button_Click"/>
+
+    </Grid>
+</Window>
