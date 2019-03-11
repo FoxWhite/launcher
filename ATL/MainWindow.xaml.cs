@@ -28,7 +28,7 @@ namespace ATL
 
         private void Start_Click(object sender, RoutedEventArgs e)
         {
-            Launcher.PlayGame();
+            Launcher.PlayGame(); 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -36,4 +36,5 @@ namespace ATL
             Launcher.LaunchWebsite("https://at-wow.org/forum/");
         }
     }
+      
 }

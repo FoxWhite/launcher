@@ -12,6 +12,7 @@ namespace ATL
         public static void PlayGame()
         {
         Process.Start("wow.exe");
+            Environment.Exit(0);
         }
         public static void LaunchWebsite(string url)
         {
