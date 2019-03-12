@@ -8,10 +8,10 @@
         Title="Arena-Tournament" Height="496.261" Width="746.729" Background="#FF1E2027" ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="https://at-wow.org/templates/at_wow/images/banner.jpg"/>
+            <ImageBrush ImageSource="https://github.com/FoxWhite/News/blob/master/YT904BPmtxo.jpg?raw=true"/>
         </Grid.Background>
-        <WebBrowser Margin="10,10,180,78" RenderTransformOrigin="-2.049,0.474" Source="https://at-wow.org/alert/"/>
-        <Button x:Name="LaunchGameButton" Content="Start Play" HorizontalAlignment="Left" Margin="528,405,0,0" VerticalAlignment="Top" Width="190" Height="38" Background="#FFFF9F15" FontFamily="/WOW;component/#LifeCraft" FontSize="36" RenderTransformOrigin="0.5,0.5" Click="Start_Click" Foreground="#FF110202">
+        <WebBrowser Margin="26,10,31,86" RenderTransformOrigin="-2.049,0.474" Source="https://at-wow.org/launcher/"/>
+        <Button x:Name="LaunchGameButton" Content="Start Play" HorizontalAlignment="Left" Margin="528,405,0,0" VerticalAlignment="Top" Width="190" Height="38" Background="#FFFF9F15" FontFamily="/AT_Launcher;component/#LifeCraft" FontSize="36" RenderTransformOrigin="0.5,0.5" Click="Start_Click" Foreground="#FF110202">
 
             <Button.RenderTransform>
                 <TransformGroup>
@@ -22,7 +22,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="LaunchWebsiteButton" Content="Forum" HorizontalAlignment="Left" Margin="10,406,0,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="-2.875,0.58" Height="40" FontFamily="/WOW;component/#LifeCraft" FontSize="36" FontWeight="Bold" Background="#FFFF9F15" Click="Button_Click"/>
+        <Button x:Name="LaunchWebsiteButton" Content="Forum" HorizontalAlignment="Left" Margin="10,406,0,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="-2.875,0.58" Height="40" FontFamily="/AT_Launcher;component/#LifeCraft" FontSize="36" FontWeight="Bold" Background="#FFFF9F15" Click="Button_Click"/>
 
     </Grid>
 </Window>
